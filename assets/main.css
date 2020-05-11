@@ -526,16 +526,6 @@ h1:after {
 .rizal .eduexp {
   border-bottom: 0;
 }
-.text-blog,
-.text-blog:before,
-.text-blog:after {
-  content: "";
-  width: 37px;
-  height: 3px;
-  background-color: #f47522;
-  display: inline-block;
-  margin-bottom: 10px;
-}
 /* ---------------------------------------------------------------- */
 /* ---------------------------------------------------------------- */
 /* Page 3 */
@@ -722,4 +712,14 @@ h1:after {
   font-size: 14px;
   color: white;
   padding-top: 30px;
+}
+.text-blog,
+.text-blog:before,
+.text-blog:after {
+  content: "";
+  width: 37px;
+  height: 3px;
+  background-color: #f47522;
+  display: inline-block;
+  margin-bottom: 10px;
 }
