@@ -1,0 +1,45 @@
+/* Header */
+header {
+  box-shadow: 0 0 100px 0 #c1c3c736;
+}
+.header {
+  max-width: 100%;
+  padding-left: 10%;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.btn-menu {
+  border-radius: 36px;
+  width: 120px;
+  padding: 5px;
+  margin-left: 20px;
+}
+.btn a {
+  color: #f47522;
+}
+.bar {
+  color: #19345e;
+  font-family: "Muli", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.bar:hover {
+  color: #f47522;
+}
+.aktif {
+  color: #f47522;
+}
+.btn {
+  color: #f47522;
+  font-family: "Muli", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.btn-menu:hover {
+  color: white;
+}
+.btn-menu:hover a {
+  color: white;
+  text-decoration: none;
+}

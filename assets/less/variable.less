@@ -1,0 +1,29 @@
+//text
+@import url("https://fonts.googleapis.com/css?family=Muli:400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap");
+
+//variable
+@orange-alta: #f47522;
+@white-color: white;
+@blue-alta: #19345e;
+@font-size-15px: 15px;
+@font-weight-bold: bold;
+@font-family-muli: "Muli", sans-serif;
+@font-family-roboto: "Roboto", sans-serif;
+
+//extends
+.text-blog {
+  content: "";
+  width: 37px;
+  height: 3px;
+  background-color: @orange-alta;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+//mixin
+.radius(@radius) {
+  -webkit-box-shadow: @radius;
+  -moz-box-shadow: @radius;
+  box-shadow: @radius;
+}

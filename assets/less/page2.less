@@ -1,0 +1,102 @@
+//text
+@import url("https://fonts.googleapis.com/css?family=Muli:400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap");
+
+//variable
+@orange-alta: #f47522;
+@white-color: white;
+@blue-alta: #19345e;
+@font-size-15px: 15px;
+@font-weight-bold: bold;
+@font-family-muli: "Muli", sans-serif;
+@font-family-roboto: "Roboto", sans-serif;
+
+//extends
+.text-blog {
+  content: "";
+  width: 37px;
+  height: 3px;
+  background-color: @orange-alta;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+//mixin
+.radius(@radius) {
+  -webkit-box-shadow: @radius;
+  -moz-box-shadow: @radius;
+  box-shadow: @radius;
+}
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+
+/* Page 2 */
+
+.background {
+  background-image: url(../img/ornament_batik.png),
+    url(../img/ornament_batik.png);
+  background-size: 15%;
+  background-position: top 4% left 0, bottom 8% right;
+  background-repeat: no-repeat;
+}
+.alul h2 {
+  padding-left: 5%;
+  padding-top: 2%;
+}
+.pht img {
+  width: 82%;
+  height: 82%;
+  margin-right: 0;
+  padding-left: 15%;
+  position: relative;
+  padding-top: 5%;
+}
+.border-out {
+  border: @orange-alta solid 10px;
+  width: 65%;
+  height: 100%;
+  position: absolute;
+  margin-left: 8%;
+  top: 8%;
+}
+
+.data {
+  height: 90%;
+  margin-top: 15%;
+  text-align: left;
+  padding-left: 0;
+}
+
+.eduexp {
+  text-align: left;
+  border-bottom: 2px dashed rgb(194, 194, 194);
+  margin-top: 10%;
+  img {
+    width: 5%;
+    height: 5%;
+  }
+  ul li {
+    line-height: 200%;
+    margin: 1%;
+  }
+}
+
+.edu {
+  padding-left: 9%;
+  li span,
+  .exp li span {
+    font-weight: 900;
+  }
+}
+
+.exp {
+  padding-left: 10%;
+}
+
+/* Rizal Only */
+.rizal .border-out {
+  border: @blue-alta solid 10px;
+}
+.rizal .eduexp {
+  border-bottom: 0;
+}

@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Aulp_0qiz-aVz7u3PJLcUMYOFnOkEk30e0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Aulp_0qiz-aVz7u3PJLcUMYOFn8kEk30e0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Aulp_0qiz-aVz7u3PJLcUMYOFkQl0k30e0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Aulp_0qiz-aVz7u3PJLcUMYOFkpl0k30e0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Aulp_0qiz-aVz7u3PJLcUMYOFlOl0k30e0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Aulp_0qiz-aVz7u3PJLcUMYOFlnl0k30e0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfBBc9.ttf) format('truetype');
+}
+.text-blog {
+  content: "";
+  width: 37px;
+  height: 3px;
+  background-color: #f47522;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+/* Page 2 */
+.background {
+  background-image: url(../img/ornament_batik.png), url(../img/ornament_batik.png);
+  background-size: 15%;
+  background-position: top 4% left 0, bottom 8% right;
+  background-repeat: no-repeat;
+}
+.alul h2 {
+  padding-left: 5%;
+  padding-top: 2%;
+}
+.pht img {
+  width: 82%;
+  height: 82%;
+  margin-right: 0;
+  padding-left: 15%;
+  position: relative;
+  padding-top: 5%;
+}
+.border-out {
+  border: #f47522 solid 10px;
+  width: 65%;
+  height: 100%;
+  position: absolute;
+  margin-left: 8%;
+  top: 8%;
+}
+.data {
+  height: 90%;
+  margin-top: 15%;
+  text-align: left;
+  padding-left: 0;
+}
+.eduexp {
+  text-align: left;
+  border-bottom: 2px dashed #c2c2c2;
+  margin-top: 10%;
+}
+.eduexp img {
+  width: 5%;
+  height: 5%;
+}
+.eduexp ul li {
+  line-height: 200%;
+  margin: 1%;
+}
+.edu {
+  padding-left: 9%;
+}
+.edu li span,
+.edu .exp li span {
+  font-weight: 900;
+}
+.exp {
+  padding-left: 10%;
+}
+/* Rizal Only */
+.rizal .border-out {
+  border: #19345e solid 10px;
+}
+.rizal .eduexp {
+  border-bottom: 0;
+}

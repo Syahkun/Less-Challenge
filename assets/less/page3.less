@@ -1,0 +1,80 @@
+//text
+@import url("https://fonts.googleapis.com/css?family=Muli:400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap");
+
+//variable
+@orange-alta: #f47522;
+@white-color: white;
+@blue-alta: #19345e;
+@font-size-15px: 15px;
+@font-weight-bold: bold;
+@font-family-muli: "Muli", sans-serif;
+@font-family-roboto: "Roboto", sans-serif;
+
+//extends
+.text-blog {
+  content: "";
+  width: 37px;
+  height: 3px;
+  background-color: @orange-alta;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+//mixin
+.radius(@radius) {
+  -webkit-box-shadow: @radius;
+  -moz-box-shadow: @radius;
+  box-shadow: @radius;
+}
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+
+/* Page 3 */
+
+.blogpage {
+  text-align: left;
+}
+.text-blog {
+  font-family: @font-family-muli;
+  font-size: 45px;
+  text-align: center;
+  font-weight: @font-weight-bold;
+  color: @blue-alta;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  &:before {
+    &:extend(.text-blog);
+    margin-right: 5px;
+  }
+  &:after {
+    &:extend(.text-blog);
+    margin-left: 5px;
+  }
+}
+.title-blog {
+  font-size: 50px;
+  font-family: @font-family-muli;
+  font-weight: bolder;
+  color: @blue-alta;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.date-blog {
+  font-family: @font-family-muli;
+  font-size: 20px;
+  color: @blue-alta;
+  font-weight: @font-weight-bold;
+}
+.img-blog {
+  width: 100%;
+  height: 100%;
+}
+.text-blog {
+  font-size: 46px;
+}
+.all-text-blog {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: @blue-alta;
+}

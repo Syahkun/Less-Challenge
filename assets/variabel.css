@@ -1,0 +1,19 @@
+@import "reset.css";
+div {
+  color: #ffffff;
+  font-family: "Muli", sans-serif;
+  font-size: 16px;
+}
+.at-content .at-content--txt h1 {
+  font-family: "Muli", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+}
+.btn {
+  color: orange;
+  background-color: blue;
+  border: 1px solid orange;
+}
+.btn span {
+  color: yellow;
+}

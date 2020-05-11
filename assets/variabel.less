@@ -1,0 +1,63 @@
+@color-white: #ffffff;
+@orange: orange;
+@navy: blue;
+@yellow: yellow;
+@font-muli: "Muli", sans-serif;
+@durasi: 20px;
+
+div {
+  color: @color-white;
+  font-family: @font-muli;
+  font-size: 16px;
+}
+
+.at-content {
+  .at-content--txt {
+    h1 {
+      font-family: @font-muli;
+      font-weight: 700;
+      font-size: 35px;
+    }
+  }
+}
+
+.radius(@durasi) {
+  border-radius: @durasi;
+  -moz-border-radius: @durasi;
+  -webkit-border-radius: @durasi;
+}
+
+//extends
+
+.btn {
+  color: @orange;
+  background-color: @navy;
+  border: 1px solid @orange;
+  span {
+    color: @yellow;
+  }
+}
+
+//if/else statements
+
+.mixin (@color) when (lightness(@color) > 30%) {
+  background-color: black;
+}
+.mixin (@color) when (lightness(@color) > 30%) {
+  background-color: white;
+}
+
+//loop
+
+.loop (@counter) when (@counter > 0) {
+  .loop((@counter - 1));
+  .border-@{counter} {
+    border: 1px * @counter solid blue;
+  }
+}
+
+//import
+
+@import "library";
+@import "mixins/mixin.less";
+@import "reset.css";
